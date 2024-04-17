@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica 7</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Windows 11\Desktop\Primer departamental\Practicas\Estilos1.css">
+    <style>
+        body {
+            background-color: black;
+            font-family: 'Bradley Hand', cursive;
+            color: white;
+        }
+
+        .Header {
+            color: black;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(245, 233, 10, 0.833);
+        }
+
+        .footer {
+            color: black;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(254, 120, 9, 0.833);
+            margin-top: 1cm;
+        }
+
+        .formulario {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #dfd5d5d4;
+            border-radius: 8px;
+            box-shadow: 0 0 1cm rgba(67, 233, 6, 0.966);
+            color: black;
+        }
+
+        .formulario input[type="text"],
+        .formulario input[type="email"],
+        .formulario textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 2px solid black;
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+        }
+
+        .formulario button[type="submit"] {
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: none;
+            background-color: yellow;
+            color: red;
+            cursor: pointer;
+        }
+
+        .formulario button[type="submit"]:hover {
+            background-color: #ffd700;
+        }
+
+        .centrado {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="Header">
+        <h1>Welcome to my 16-bit Style page!</h1>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a big fan of 16-bit games and I wanted to create a web page that captures their style.</p>
+        </section>
+        <section>
+            <h2>My Favorite Games</h2>
+            <ul>
+                <li>Super Mario Bros</li>
+                <li>The Legend of Zelda</li>
+                <li>Sonic the Hedgehog</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="formulario">
+        <h2>Retro Game Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Done">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <h3>© 2023 Copyrigt solis xd</h3>
+    </footer>
+</body>
+</html>
